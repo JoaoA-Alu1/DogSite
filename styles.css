@@ -1,1 +1,58 @@
-section
+body{
+    color:white;
+    background: black;
+    font-family: "Jersey 10", sans-serif;
+    margin: 0px;
+}
+
+header{
+    border-bottom: solid 2px rgb(199, 193, 127);
+    color: black;
+    background: palegoldenrod;
+    font-size: 48px;
+    padding: 20px;
+}
+
+.youtubevideo{
+    border: rgb(82, 60, 28) solid 8px;
+    border-top-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+    scale: 0.9;
+    
+}
+
+.youtubevideo:hover{
+    scale: 1.1;
+}
+
+.par{
+    background: linear-gradient(rgb(253, 213, 80), rgb(151, 112, 54));
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    font-size: 49px;
+    margin: 2%;
+}
+  
+p{
+    font-size: 29px;
+}
+
+.dog-teria{
+    margin: 23px;
+}
+
+.dogvideoes{
+    margin: 0px;
+    display: flex;
+    font-size: 100px;
+    align-content: center;
+}
+
+.dogvideoes :hover {
+    scale: 1.1;
+}
